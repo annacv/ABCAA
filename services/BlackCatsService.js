@@ -2,14 +2,14 @@
 
 function BlackCatsService() {
   this.baseURL = 'https://api.thecatapi.com/v1/images/search';
-  this.searchConditions = '?breed_ids=bomb';
+  this.searchConditions = '?limit=3&breed_id=bomb';
 }
 
 BlackCatsService.prototype.getCatslist = async function() {
   let header = {
     'x-api-key' : 'bdf516bc-9857-4b28-ae55-ba8068c64160',
     'Content-Type': 'application/json',
-    'size': 'small',
+    'size': 'small'
   }
   try {
     var response = await fetch(`${this.baseURL}${this.searchConditions}`, {header: header});
