@@ -13,17 +13,18 @@ CatsPage.prototype.generate = async function() {
   
   await this.connectToAPI();
   this.elements = `
-    <section class="cats-grid">
+    <section class="card-grid">
   `;
   this.allCats.forEach((cat) => {
-    let arrNames = ['Manel', 'Antonio', 'Eugènia', 'Eufràsia', 'Manolo', 'Antònia', 'Teta', 'Tata', 'Meritxell', 'Terca', 'Topos', 'Misae', 'Xuxa', 'Shushi'];
-    let arrDescriptions = ['A classic roof\'s cat. Loves to look at the moon and hunt flies.', 'A kind of rare cat, practices swimming while eats chocolate.', 'Late at night this cat begins to jump searching for vampires.', 'A bipolar cat, friendly during the day, violent at night.', 'No one would think this cat speaks more than 5 languages, but it does.', 'This cat has the life all we dream of: just spends time eating and watching clouds.', 'This cat loves watermelon, but only when it\'s served as an icecream', 'Ninja cat, hunt flies while deployment is on going']
+    let arrNames = ['Manel', 'Antònio', 'Eugènia', 'Eufràsia', 'Manolo', 'Antònia', 'Teta', 'Tata', 'Meritxell', 'Terca', 'Topos', 'Misae', 'Xuxa', 'Shushi'];
+    let arrDescriptions = ['A classic roof\'s cat. Loves to look at the moon and hunt flies.', 'A kind of rare cat, practices swimming while eats chocolate with knuts.', 'Late at night this cat begins to jump searching for vampires.', 'A bipolar cat, friendly during the day, violent at night.', 'No one would think this cat speaks more than 5 languages, but it does.', 'This cat has the life all we dream of: just spends time eating and watching clouds.', 'This cat loves watermelon, but only when it\'s served as an icecream.', 'Ninja cat, hunts flies while deployment is on going.', 'Somewhat wild... its dream is to go to the moon and throw itself in free fall.', 'This nice cat loves barbecues, gazpatxo and spending time spitting the neighborhood.', 'It loves parties! Customized as a pink panther, he practices karaoke each Friday.', 'Very famous in its neighborhood as a talented singer in spring.', 'Don\'t hesitate to ask it for help in kicking all kinds of uniformed rats.', 'Rockcatstar! Plays the harmonica with the whiskers while scratching the guitar at four legs!']
     this.elements += `
       <article class="grid-item">
         <div class="grid-item-image" style="background-image: url('${cat.url}')"></div>
-        <h3 class="card-title">${arrNames[Math.floor(Math.random()*14)]}</h3>
-        <p class="card-description">${arrDescriptions[Math.floor(Math.random()*8)]}</p>
-        
+        <div class="grid-item-info">
+          <h3 class="card-title">${arrNames[Math.floor(Math.random()*14)]}</h3>
+          <p class="card-description">${arrDescriptions[Math.floor(Math.random()*14)]}</p>
+        </div>
       </article>
     `
   })
