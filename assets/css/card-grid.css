@@ -1,0 +1,28 @@
+.cats-grid {
+  display: grid;
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  .cats-grid {
+    display: grid;
+    padding: 4rem;
+  }
+}
+
+.grid-item {
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+}
+
+.grid-item-image {
+  width: 256px;
+  height: 256px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-title {
+  text-transform: uppercase;
+}
