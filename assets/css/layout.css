@@ -1,7 +1,24 @@
 .header,
 .footer {
-  padding: 0 4rem;
-  height: 5rem;
+  padding: 0 2rem;
+  height: 2.5rem;
+  font-size: .875rem;
+}
+
+@media (min-width: 768px) {
+
+  .header,
+  .footer {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header,
+  .footer {
+    padding: 0 4rem;
+    height: 5rem;
+  }
 }
 
 .header {
@@ -47,7 +64,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   mix-blend-mode: multiply;
-  margin-left: .85rem;
+  margin-left: .25rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-list-item:last-child::after {
+    margin-left: .85rem;
+  }
 }
 
 .navbar-list-link:hover {
