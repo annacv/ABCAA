@@ -11,7 +11,7 @@
 }
 
 .grid-item {
-  width: 100%;
+  width: 16rem;
   height: auto;
   padding-bottom: 2rem;
 }
@@ -24,9 +24,16 @@
 }
 
 @media (min-width: 321px) {
+  .grid-item,
   .grid-item-image {
     width: 100%;
-    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .grid-item,
+  .grid-item-image {
+    width: 16rem;
   }
 }
 

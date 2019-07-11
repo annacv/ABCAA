@@ -8,13 +8,24 @@
 }
 
 @media (min-width: 768px) {
-  .landing-intro {
-    padding: 4.5rem 4.5rem 5.625rem;
-    margin: 6rem;
+  .landing-intro { 
+    margin: 4rem;
   }
 }
 
 @media (min-width: 1024px) {
+  .landing-intro {
+    margin: 4rem 10rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing-intro {
+    margin: 4rem 16rem;
+  }
+}
+
+@media (min-width: 1400px) {
   .landing-intro {
     padding: 4.5rem 4.5rem 5.625rem;
     margin: 9rem 20rem;
@@ -23,6 +34,7 @@
 
 .intro-section,
 .intro-brand {
+  width: 100%;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
