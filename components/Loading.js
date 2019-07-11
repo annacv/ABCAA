@@ -6,7 +6,12 @@ function Loading(parentElement) {
 }
 
 Loading.prototype.generate = function() {
-  this.elements = '<p>Wait! Black Cats are coming from ceilings...</p>'
+  this.elements = `
+    <main class="loader container">
+      <p class="loader-message"> >> Wait! Cats are coming from the ceilings...</p>
+      <img class= "loader-gif" src="https://media.giphy.com/media/kLka7AlsedWZq/giphy.gif" alt="Cat Flying Cats GIF" style="width: 100%; height: auto;">
+    </main>
+    `
   this.render();
 }
 
