@@ -1,15 +1,18 @@
 # Project's name
-PinkPanthars
+## Tindercats
+>ACAB > all cats are boilerplates!
 
-![PinkPanthars](pink-panthars_preview.png)
+![Tindecats](preview.jpg)
 
 ## Description
-FEMALE MUSICIANS CREW
-A Female music directory to play with API requests
+Have you ever thought that it's easier to live together with animals than with people?
+Really?! Then, this is your webapp!!
+
+While finding love in your life is a kind of social construction difficult to believe... Finding your ideal "gatete" is pretty easy and fun with Tindercats!
 
 
 ## MVP
-
+The MVP is to show an amount of cats provided by an API, and make it happen the coolest way by adding some transitions and or animations.
 
 ## Backlog
 ##### FIRST ITERATION:
@@ -17,11 +20,10 @@ Our first iteration:
 *Adding components & Features*
 - Card component to display more scalable code.
 - Layout Footer component with navbar
-- Play music in front
+- Toggle info
 
 ##### SECOND ITERATION:
 *Adding more Features and refine styles for a better UX*
-- Filter by genre
 - Improve styles (add more graphics &/or icons)
 - Burguer component
 
@@ -39,7 +41,7 @@ Classes and methods definition.:
   * ......
   * ......
 
-*Panthars Page*
+*Cats grid page*
 1. Props
   * ......
   * ......
@@ -64,15 +66,20 @@ Task definition in order of priority
 
 
 ### Trello
-[Link url](https://trello.com/b/qDX9otMp)
+[Link url](https://trello.com/b/i821T5pF)
 
 
 ### Git
 URls for the project repo and deploy
-[Link Repo](https://github.com/annacv/pink-panthars)
-[Link Deploy](https://annacv.github.io/pink-panthars/)
+[Link Repo](https://github.com/annacv/all-cats/)
+[Link Deploy](https://annacv.github.io/all-cats/)
 
 
 ### Slides
 URls for the project presentation (slides)
-[Link Slides.com](https://---------)
+[Link Slides.com](https://docs.google.com/presentation/d/1m1ykttWykq2Sn-1uoLMuNYBetMmCWGOQq6uNfaZ8Hms/edit?usp=sharing)
+
+
+### Zeplin
+URls for the project presentation (slides)
+[Link Zcene Zeplin](https://scene.zeplin.io/project/5d267c5024732d4f8127fa2e)
