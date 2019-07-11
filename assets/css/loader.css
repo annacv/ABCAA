@@ -1,5 +1,5 @@
 .loader {
-  padding: 4.5rem 4.5rem 4.625rem;
+  padding: 4.5rem 8rem;
   margin: 9rem 20rem;
   width: 100%;
   display: flex;
@@ -10,7 +10,7 @@
 
 .loader-message {
   margin-bottom: 2.25rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .loader-gif {
