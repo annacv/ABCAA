@@ -12,9 +12,16 @@ function Layout(root, style) {
 // generate DOM elements
 Layout.prototype.generate = function() {
   this.elements = `
-    <header id="site-header"><h1>BlackCats</h1></header>
-    <main id="site-main"></main>
-    <footer id="site-footer">Coded in Ironhack /></footer>
+    <header id="site-header" class="header container">
+      <h1>Tindercats</h1>
+    </header>
+    <main id="site-main" class="main container"></main>
+    <footer id="site-footer" class="footer container">
+      <ul class="footer-credits">
+        <li>Coded in Ironhack /></li>
+        <li>AnnaCondal</li>  
+      </ul>
+    </footer>
   `
   this.render();
   this.getContainers();

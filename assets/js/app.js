@@ -9,7 +9,7 @@ function main() {
     { name: 'Home',
       url: '/'
     },
-    { name: 'Miolouu',
+    { name: 'Meet your cat!',
       url: '/miolouu'
     },
   ];
