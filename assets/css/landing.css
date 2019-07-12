@@ -1,6 +1,6 @@
 .landing-intro {
   padding: 3.5rem 2rem 3.625rem;
-  margin: 2rem;
+  margin: 4rem 2rem 4rem 2rem;
   width: 100%;
   display: flex;
   flex-flow: column wrap;
@@ -21,7 +21,7 @@
 
 @media (min-width: 1200px) {
   .landing-intro {
-    margin: 4rem 16rem;
+    margin: 6rem 16rem;
   }
 }
 
@@ -43,7 +43,7 @@
 
 .intro-title {
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
