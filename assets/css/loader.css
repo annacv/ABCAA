@@ -7,10 +7,10 @@
   flex-flow: column wrap;
   align-items: center;
   border: .25rem solid #fff;
-  animation: pulse 1s;
+  animation: load 1s;
 }
 
-@keyframes pulse {
+@keyframes load {
   0% {
     opacity: 0;
   }
