@@ -41,6 +41,17 @@
   flex-basis: 1;
   color: #fff;
   background-color: #b388eb;
+  animation: pulse 2s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #fff;
+  }
+
+  100% {
+    background-color: #b388eb;
+  }
 }
 
 .container,

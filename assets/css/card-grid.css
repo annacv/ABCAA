@@ -63,13 +63,22 @@
   background-size: cover;
   background-position: center center;
   mix-blend-mode: multiply;
+  animation: fade-in 2s ease-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .grid-item-image:hover {
   mix-blend-mode: hard-light;
 }
-
-
 
 @media (min-width: 321px) {
   .grid-item,
