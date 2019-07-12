@@ -66,9 +66,16 @@
 
 .intro-cta {
   padding: .85rem 1.6rem .8rem;
+  color: #fff;
   font-weight: 900;
   line-height: 1.2;
   text-transform: uppercase;
   background-color: #880a7f;
   border-radius: 1.5rem;
+}
+
+.intro-cta:hover,
+.intro-cta:focus,
+.intro-cta:active {
+  background-color: #712f79;
 }
