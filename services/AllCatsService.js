@@ -14,7 +14,6 @@ AllCatsService.prototype.getCatslist = async function() {
   try {
     var response = await fetch(`${this.baseURL}${this.searchConditions}`, {header: header});
     var data = await response.json();
-    console.log(data);
     return data;
   } catch(error) {
     console.log(error);

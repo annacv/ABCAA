@@ -14,11 +14,11 @@ LandingPage.prototype.generate = function() {
       </div>
       <div class="intro-brand">
         <h1 class="brand-logo"><img src="./assets/images/tindercats.svg" alt="Tindercats logo" class="brand-image"></h1>
-        <p class="intro-cta">Miolouu</p>
+        <a class="intro-cta" href="#0" url="/miolouu">Miolouu</a>
         <p class="intro-description acab">allcatsareboilerplates</p>
       <div>
     </section>
-  `;
+  `; 
   this.render();
 }
 

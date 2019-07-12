@@ -44,6 +44,9 @@ function main() {
   function activateRouter() {
     routerInstance.buildDOM(ENTRY_POINT, layoutInstance.main);
   }
+
+  var anchorBtn = document.querySelector('.intro-cta');
+  anchorBtn.addEventListener('click', changePage);
 };
 
 window.addEventListener('load', main);
