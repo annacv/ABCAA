@@ -7,6 +7,17 @@
   flex-flow: column wrap;
   align-items: center;
   border: .25rem solid #fff;
+  animation: pulse 1s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
 
 @media (min-width: 768px) {

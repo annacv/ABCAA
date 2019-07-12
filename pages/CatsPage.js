@@ -10,7 +10,7 @@ function CatsPage(parentElement) {
 CatsPage.prototype.generate = async function() {
   this.loading = new Loading(this.parentElement);
   this.loading.generate();
-  
+
   await this.connectToAPI();
   this.elements = `
     <section class="card-grid">
