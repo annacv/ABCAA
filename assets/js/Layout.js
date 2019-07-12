@@ -19,7 +19,7 @@ Layout.prototype.generate = function() {
     <footer id="site-footer" class="footer container">
       <ul class="footer-credits">
         <li>Coded in Ironhack /></li>
-        <li>AnnaCondal</li>  
+        <li><a class="footer-repo-link" href="https://github.com/annacv/all-cats" target="blank">AnnaCondal</a></li>  
       </ul>
     </footer>
   `

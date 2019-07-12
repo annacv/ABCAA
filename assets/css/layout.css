@@ -121,7 +121,8 @@
   font-weight: 900;
 }
 
-.footer-credits {
+.footer-credits,
+.footer-repo-link {
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
