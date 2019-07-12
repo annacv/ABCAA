@@ -1,6 +1,6 @@
 .landing-intro {
   padding: 3.5rem 2rem 3.625rem;
-  margin: 4rem 2rem 4rem 2rem;
+  margin: 5.5rem 2rem 6.5rem 2rem;
   width: 100%;
   display: flex;
   flex-flow: column wrap;
@@ -9,13 +9,13 @@
 
 @media (min-width: 768px) {
   .landing-intro { 
-    margin: 4rem;
+    margin: 6rem 4rem;
   }
 }
 
 @media (min-width: 1024px) {
   .landing-intro {
-    margin: 4rem 10rem;
+    margin: 6rem 10rem;
   }
 }
 
@@ -28,7 +28,7 @@
 @media (min-width: 1400px) {
   .landing-intro {
     padding: 4.5rem 4.5rem 5.625rem;
-    margin: 9rem 20rem;
+    margin: 10rem 20rem;
   }
 }
 
