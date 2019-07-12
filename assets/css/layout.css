@@ -1,8 +1,8 @@
 .header,
 .footer {
-  padding: 0 2rem;
+  padding: .25rem 2rem;
   height: 2.5rem;
-  font-size: .875rem;
+  font-size: .8rem;
 }
 
 @media (min-width: 768px) {
@@ -60,24 +60,48 @@
   align-self: center;
 }
 
-.navbar-list-item:last-child {
-  display: inline-flex;
+.navbar-list-item:first-child {
+  display: flex;
+  align-content: center;
+  align-self: center;
 }
 
-.navbar-list-item:last-child::after {
+.navbar-list-item:first-child::before {
   content: '';
-  width: 1.625rem;
-  height: 1.625rem;
+  width: 4.5rem;
+  height: 1rem;
   display: inline-flex;
-  background: url('../images/icon-placeholder.jpg');
+  align-self: center;
+  background: url('../images/tindercats-min.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  mix-blend-mode: multiply;
-  margin-left: .25rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .navbar-list-item:first-child::before {
+    width: 6.625rem;
+    height: 1.45rem;
+    margin-right: 2rem;
+    margin-bottom: .35rem;
+  }
+}
+
+.navbar-list-item:last-child {
+  display: inline-flex;
+  align-self: center;
 }
 
 @media (min-width: 768px) {
   .navbar-list-item:last-child::after {
+    content: '';
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-flex;
+    align-self: center;
+    background: url('../images/fingercat.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-left: .85rem;
   }
 }

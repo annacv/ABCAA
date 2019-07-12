@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-placeholder-copy" transform="translate(-3.000000, -3.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(13.000000, 13.000000) rotate(35.000000) translate(-13.000000, -13.000000) translate(3.000000, 4.000000)">
+                <ellipse id="Oval" cx="6.53061224" cy="2.6" rx="2.04081633" ry="2.6"></ellipse>
+                <ellipse id="Oval-Copy-2" cx="2.04081633" cy="7.8" rx="2.04081633" ry="2.6"></ellipse>
+                <path d="M11.4285714,16.8 C10.9861288,16.2324219 8.91302615,16.2246094 8.32768538,16.8369928 C8.20743475,16.9677599 8.08924314,17.0777333 7.97398559,17.1633681 C6.20945077,18.4743924 3.65860228,17.7011573 3.30601684,15.5879774 C2.9534314,13.4747975 4.93986569,11.6196181 7.37449579,8.83680556 C8.25962518,7.82509166 9.13774755,7.54901123 9.89696631,7.60739607 C10.6608279,7.54247458 11.5467533,7.8143792 12.4398119,8.83515625 C14.874442,11.6179687 16.8608763,13.4731482 16.5082908,15.5863281 C16.1557054,17.699508 13.4035614,18.513094 11.8403221,17.1617187 C11.8339636,17.156222 11.5080652,16.9019769 11.4285714,16.8 Z" id="Path"></path>
+                <ellipse id="Oval-Copy-3" cx="17.9591837" cy="7.8" rx="2.04081633" ry="2.6"></ellipse>
+                <ellipse id="Oval-Copy" cx="13.0612245" cy="2.6" rx="2.04081633" ry="2.6"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
