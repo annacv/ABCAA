@@ -36,9 +36,6 @@
 }
 
 .main {
-  flex-grow: 2;
-  flex-shrink: 0;
-  flex-basis: 1;
   color: #fff;
   background-color: #b388eb;
   animation: pulse 2s;
