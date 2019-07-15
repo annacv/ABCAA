@@ -1,32 +1,42 @@
+
 .landing-intro {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  flex: 1 1 0;
+  width: 100vh;
+  height: 100vh;
+}
+
+.intro-container {
   padding: 3.5rem 2rem 3.625rem;
   margin: 5.5rem 2rem 6.5rem 2rem;
-  width: 100%;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
+  justify-content: center;
   border: .25rem solid #fff;
 }
 
 @media (min-width: 768px) {
-  .landing-intro { 
+  .intro-container {
     margin: 6rem 4rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .landing-intro {
+  .intro-container {
     margin: 6rem 10rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .landing-intro {
+  .intro-container {
     margin: 6rem 16rem;
   }
 }
 
 @media (min-width: 1400px) {
-  .landing-intro {
+  .intro-container {
     padding: 4.5rem 4.5rem 5.625rem;
     margin: 10rem 20rem;
   }
