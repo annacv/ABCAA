@@ -1,6 +1,6 @@
 'use strict'
 
-function main() {
+const main = () => {
   const ENTRY_POINT = '/'
   let layoutInstance = null
   let navbarInstance = null
@@ -29,7 +29,7 @@ function main() {
     /*anchors.forEach(function(anchor) {
       anchor.addEventListener('click', changePage)
     })*/
-    anchors.forEach( anchor => anchor.addEventListener('click', changePage));
+    anchors.forEach( anchor => anchor.addEventListener('click', changePage))
   }
   
   const activateRouter = () => routerInstance.buildDOM(ENTRY_POINT, layoutInstance.main)
@@ -41,12 +41,11 @@ function main() {
   
   function changePage(event) {
     const url = event.target.attributes.url.value;
-    routerInstance.buildDOM(url, layoutInstance.main);
+    routerInstance.buildDOM(url, layoutInstance.main)
   }
 
   const anchorBtn = document.querySelector('.intro-cta')
   anchorBtn.addEventListener('click', changePage)
-
 };
 
 window.addEventListener('load', main);
