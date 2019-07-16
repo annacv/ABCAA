@@ -8,7 +8,7 @@
   height: 100vh;
 }
 
-.intro-container {
+.landing-container {
   padding: 3.5rem 2rem 3.625rem;
   margin: 5.5rem 2rem 6.5rem 2rem;
   display: flex;
@@ -18,25 +18,25 @@
 }
 
 @media (min-width: 768px) {
-  .intro-container {
+  .landing-container {
     margin: 6rem 4rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .intro-container {
+  .landing-container {
     margin: 6rem 10rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .intro-container {
+  .landing-container {
     margin: 6rem 16rem;
   }
 }
 
 @media (min-width: 1400px) {
-  .intro-container {
+  .landing-container {
     padding: 4.5rem 4.5rem 5.625rem;
     margin: 10rem 20rem;
   }

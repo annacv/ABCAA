@@ -32,7 +32,7 @@ class LandingPage {
 LandingPage.prototype.generate = function() {
   this.elements = `
     <section class="landing-intro">
-      <div class="intro-container">
+      <div class="landing-container">
         <div class="intro-section">
           <h2 class="intro-title">ACAB</h2>
           <p class="intro-description">Presents</p>
