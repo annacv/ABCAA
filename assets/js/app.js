@@ -1,11 +1,11 @@
 'use strict'
 
-function main() {
-  var ENTRY_POINT = '/';
-  var layoutInstance = null;
-  var navbarInstance = null;
-  var rootElement = document.querySelector('#root');
-  var links = [
+const main = () => {
+  const ENTRY_POINT = '/'
+  let layoutInstance = null
+  let navbarInstance = null
+  const rootElement = document.querySelector('#root')
+  const links = [
     { name: 'Home',
       url: '/'
     },
@@ -13,40 +13,39 @@ function main() {
       url: '/miolouu'
     },
   ];
-
-  generateLayout();
-  generateNavbar();
-  addListenersToNavbar();
-  activateRouter();
-
-  function generateLayout() {
-    layoutInstance = new Layout(rootElement);
-    layoutInstance.generate();
+  
+  const generateLayout = () => {
+    layoutInstance = new Layout(rootElement)
+    layoutInstance.generate()
   }
-
-  function generateNavbar() {
-    navbarInstance = new Navbar(layoutInstance.header, links);
-    navbarInstance.generate();
+  
+  const generateNavbar = () => {
+    navbarInstance = new Navbar(layoutInstance.header, links)
+    navbarInstance.generate()
   }
-
-  function addListenersToNavbar() {
-    var anchors = document.querySelectorAll('nav a');
-    anchors.forEach(function(anchor) {
-      anchor.addEventListener('click', changePage);
-    })
+  
+  const addListenersToNavbar = () => {
+    const anchors = document.querySelectorAll('nav a')
+    /*anchors.forEach(function(anchor) {
+      anchor.addEventListener('click', changePage)
+    })*/
+    anchors.forEach( anchor => anchor.addEventListener('click', changePage))
   }
-
+  
+  const activateRouter = () => routerInstance.buildDOM(ENTRY_POINT, layoutInstance.main)
+  
+  generateLayout()
+  generateNavbar()
+  addListenersToNavbar()
+  activateRouter()
+  
   function changePage(event) {
-    var url = event.target.attributes.url.value;
-    routerInstance.buildDOM(url, layoutInstance.main);
+    const url = event.target.attributes.url.value;
+    routerInstance.buildDOM(url, layoutInstance.main)
   }
 
-  function activateRouter() {
-    routerInstance.buildDOM(ENTRY_POINT, layoutInstance.main);
-  }
-
-  var anchorBtn = document.querySelector('.intro-cta');
-  anchorBtn.addEventListener('click', changePage);
+  const anchorBtn = document.querySelector('.intro-cta')
+  anchorBtn.addEventListener('click', changePage)
 };
 
 window.addEventListener('load', main);
