@@ -1,28 +1,13 @@
 'use strict'
 
 class Loading {
-  constructor (parentElement) {
+  constructor(parentElement) {
     this.parentElement = parentElement;
     this.elements = null;
   }
 
   generate() {
     this.elements = `
-    <div class="loader container">
-      <p class="loader-message"> >> Wait! Cats are coming from the ceilings...</p>
-      <img class= "loader-gif" src="https://media.giphy.com/media/kLka7AlsedWZq/giphy.gif" alt="Cat Flying Cats GIF" style="width: 100%; height: auto;">
-    </div>
-    `
-  this.render();
-  }
-
-  render() {
-    this.parentElement.innerHTML = this.elements;
-  }
-}
-
-/*Loading.prototype.generate = function() {
-  this.elements = `
     <section class="loader">
       <div class="loader-container">
         <p class="loader-message"> >> Wait! Cats are coming from the ceilings...</p>
@@ -30,10 +15,10 @@ class Loading {
       </div>
     </section>
     `
-  this.render();
-}
+    this.render();
+  }
 
-Loading.prototype.render = function() {
-  this.parentElement.innerHTML = this.elements;
+  render() {
+    this.parentElement.innerHTML = this.elements;
+  }
 }
-*/
