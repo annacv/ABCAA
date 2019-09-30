@@ -1,11 +1,18 @@
 .loader {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  flex: 1 1 0;
+  width: 100vh;
+  height: 100vh;
+}
+
+.loader-container {
   padding: 3.5rem 2rem 3.625rem;
   margin: 5.5rem 2rem 6.5rem 2rem;
-  width: 100%;
-  min-height: 25rem;
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
   border: .25rem solid #fff;
   animation: load 1s;
 }
@@ -21,26 +28,26 @@
 }
 
 @media (min-width: 768px) {
-  .loader {
+  .loader-container {
     margin: 6rem 4rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .loader {
+  .loader-container {
     margin: 6rem 10rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .loader {
+  .loader-container {
     margin: 6rem 16rem;
     min-height: 30rem;
   }
 }
 
 @media (min-width: 1400px) {
-  .loader {
+  .loader-container {
     padding: 4.5rem 4.5rem 5.625rem;
     margin: 10rem 20rem;
   }
