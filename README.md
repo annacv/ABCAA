@@ -2,7 +2,7 @@
 ## Tindercats
 >ACAB > all cats are boilerplates!
 
-![Tindecats](preview.jpg)
+![Tindercats](preview.jpg)
 
 ## Description
 Have you ever thought that it's easier to live together with animals than with people?
